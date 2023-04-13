@@ -1,0 +1,33 @@
+{
+  "name": "mongoose-flights",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "http-proxy-middleware": "^2.0.6",
+    "jsx-view-engine": "^0.1.0",
+    "mongoose": "^6.10.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "webpack": "^5.79.0",
+    "webpack-dev-middleware": "^6.0.2",
+    "webpack-hot-middleware": "^2.25.3"
+  }
+}
